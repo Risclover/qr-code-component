@@ -56,47 +56,47 @@ body {
 
 2. Making sure that the container is in the exact center of the page. There are two ways of doing this that I like. I used the first method for this project.
 
-    1st method: 
-    ```html
-    <!-- HTML code -->
+  1st method: 
+  ```html
+  <!-- HTML code -->
 
-    <div class='page-container'>
-      <div class='main-container'>
-        <!-- Content here -->
-      </div>
-    </div>
-    ```
-    ```css
-    /* CSS Code */
-    .page-container {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    ```
-
-    2nd method:
-
-    ```html
-    <!-- HTML code -->
-
+  <div class='page-container'>
     <div class='main-container'>
       <!-- Content here -->
     </div>
+  </div>
+  ```
+  ```css
+  /* CSS Code */
+  .page-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ```
 
-    ```
-    ```css
-    /* CSS Code */
-    .main-container {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%); 
-    }
-    ```
+  2nd method:
+
+  ```html
+  <!-- HTML code -->
+
+  <div class='main-container'>
+    <!-- Content here -->
+  </div>
+
+  ```
+  ```css
+  /* CSS Code */
+  .main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+  }
+  ```
 
 ## Author
 
